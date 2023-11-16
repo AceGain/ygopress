@@ -1,0 +1,41 @@
+/**
+ * Theme
+ * -------------------------------------------------------------------------- */
+:root {
+    --fd-t-border-color-def: darkgray;
+    --fd-t-border-color-hover-def: black;
+
+    --fd-t-card-width-def: 55px;
+    --fd-t-card-height-def: 80px;
+
+    --fd-t-card-width-large: 103px;
+    --fd-t-card-height-large: 150px;
+}
+
+:root {
+    --fd-t-color-天气: blue;
+}
+
+/**
+ * Component: card/cell
+ * -------------------------------------------------------------------------- */
+:root {
+    --fd-c-card-cell-width-choose: var(--fd-t-card-width-large);
+    --fd-c-card-cell-height-choose: var(--fd-t-card-height-large);
+}
+
+/**
+ * Component: deck/cell
+ * -------------------------------------------------------------------------- */
+:root {
+    --fd-c-deck-cell-width-choose: var(--fd-t-card-width-def);
+    --fd-c-deck-cell-height-choose: var(--fd-t-card-height-def);
+}
+
+/**
+ * Component: series/cell
+ * -------------------------------------------------------------------------- */
+:root {
+    --fd-c-series-cell-height-def: 120px;
+    --fd-c-series-cell-width-def: 440px;
+}
